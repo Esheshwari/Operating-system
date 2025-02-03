@@ -1,3 +1,9 @@
+#1) Manually pause the background process using kill -STOP <PID>. Verify its status using ps -o pid,stat,cmd -p <PID>.
+#What does the "T" status indicate?
+#2) Resume the paused process using kill -CONT <PID>. Check its status again. What does the "R" status indicate?
+
+
+
 #!/bin/bash
 # Start a background task (using sleep to simulate a long-running task)
 echo "Starting a background task..."
